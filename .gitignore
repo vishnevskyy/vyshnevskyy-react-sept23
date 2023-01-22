@@ -10,7 +10,8 @@
 
 # production
 /build
-
+.idea
+node_modules
 # misc
 .DS_Store
 .env.local
