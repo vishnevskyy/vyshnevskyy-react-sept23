@@ -1,5 +1,7 @@
 import React from 'react';
+
 import {useForm} from "react-hook-form";
+
 import {commentsService} from "../../api/CommentsApi";
 
 const CommentsForm = ({setComments}) => {
