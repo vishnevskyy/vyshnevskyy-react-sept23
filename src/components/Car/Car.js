@@ -9,7 +9,8 @@ const {reset}=useForm({mode:'all'})
     const {id,brand,price,year}=car;
 
     const onDeleteCar = async (id) => {
-      await carsService.deleteCar(id).then(()=>setForceRender((prev)=>prev+1))
+      await carsService.deleteCar(id);
+        setForceRender((prev)=>prev+1);
         reset()
     }
 
