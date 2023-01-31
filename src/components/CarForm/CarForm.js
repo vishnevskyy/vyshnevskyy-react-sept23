@@ -22,10 +22,9 @@ const CarForm = ({setCars, updateCar, setForceRender}) => {
         reset()
     }
 
-
     const update = async (data) => {
         await carsService.updateById(updateCar.id, data);
-        setForceRender((prev) => prev + 1)
+        setForceRender((prev)=>prev+1)
         reset()
     };
 
