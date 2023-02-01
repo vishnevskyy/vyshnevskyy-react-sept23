@@ -1,0 +1,27 @@
+.MainHeader {
+    min-height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.MainHeader a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.MainHeader a[class='active']{
+    color: red;
+}
+.HomeButton{
+    border-radius: 5px;
+    border: 1px solid black ;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    align-items: center;
+    background: skyblue;
+}
+.HomeButton a{
+    font-size: 30px;
+}
