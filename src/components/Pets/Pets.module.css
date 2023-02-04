@@ -1,0 +1,9 @@
+.petsContainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.list{
+    margin: 5px;
+    width: 50%;
+}

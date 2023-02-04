@@ -1,0 +1,42 @@
+.petsContainer{
+    margin: 5px;
+    display: grid;
+    grid-template-columns:210px auto;
+    width: 100%;
+    height: 300px;
+    background: coral;
+    border-radius:  10px;
+
+}
+.icon{
+    border-radius: 10px;
+    border: 5px solid black;
+    display: flex;
+    position: relative;
+    top:50px;
+    left:10px;
+    width: 200px;
+    height: 200px;
+    background: silver;
+}
+.infoContainer{
+    position: relative;
+    left: 20px;
+    font-family: "Arial Black";
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.icon svg{
+    width: 100%;
+    height: 100%;
+}
+.buttonStyle button{
+    background-color: sandybrown;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "Arial Black";
+    font-size: medium;
+}

@@ -1,0 +1,60 @@
+.header {
+    border: 5px solid indianred;
+    border-radius: 10px;
+    height: 300px;
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    top: 50px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PetsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer input {
+    width: 200px;
+    height: 40px;
+    background-color: coral;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: medium;
+    font-family: "Arial Black";
+}
+
+.buttonContainer {
+    width: 621px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttonContainer button {
+
+    height: 40px;
+    width: 50%;
+    background-color: sandybrown;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "Arial Black";
+    font-size: medium;
+}
+
